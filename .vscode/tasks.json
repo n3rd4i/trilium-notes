@@ -43,13 +43,5 @@
 			},
 			"group": "test"
 		},
-		{
-			"label": "autohotkey",
-			"type": "shell",
-			"command": "autohotkey",
-			"args": ["captureWindow.ahk"],
-			"options": {"cwd": "tools"},
-			"group": "test"
-		}
 	]
 }

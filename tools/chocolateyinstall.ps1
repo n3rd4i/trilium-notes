@@ -3,13 +3,13 @@ $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 . "$toolsDir\commonEnv.ps1"
 
-$url        = 'https://github.com/zadam/trilium/releases/download/v0.33.7/trilium-windows-x64-0.33.7.zip'
+$url        = 'https://github.com/zadam/trilium/releases/download/v0.34.3/trilium-windows-x64-0.34.3.zip'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url           = $url
   softwareName  = 'trilium-notes*'
-  checksum      = '2AD693EFCAB66DAFCD75498DF54CE83CB3C978010AB6A5318847F9EA40DBDBD5'
+  checksum      = 'B787B80361A7B72729B5170F46D3ED009CFAD3FF661879549BCB67A4935046B0'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs

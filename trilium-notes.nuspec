@@ -4,16 +4,16 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>trilium-notes</id>
-    <version>0.41.5</version>
+    <version>0.42.3</version>
     <packageSourceUrl>https://github.com/n3rd4i/trilium-notes.git</packageSourceUrl>
     <owners>n3rd4i</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>trilium-notes (Install)</title>
+    <title>Trilium Notes</title>
     <authors>zadam</authors>
     <projectUrl>https://github.com/zadam/trilium.git</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/zadam/trilium/b3834324/images/trilium.svg</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/zadam/trilium/077d19b4/images/app-icons/png/256x256.png</iconUrl>
     <copyright>2007 Free Software Foundation</copyright>
     <licenseUrl>https://github.com/zadam/trilium/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -23,25 +23,27 @@
     <tags>trilium-notes notes</tags>
     <summary>Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases.</summary>
     <description>
-    # Features
-    * Notes can be arranged into arbitrarily deep tree. Single note can be placed into multiple places in the tree (see cloning)
-    * Rich WYSIWYG note editing including e.g. tables and images with markdown autoformat
-    * Support for editing notes with source code, including syntax highlighting
-    * Fast and easy navigation between notes, full text search and note hoisting
-    * Seamless note versioning
-    * Note attributes can be used for note organization, querying and advanced scripting
-    * Synchronization with self-hosted sync server
-    * Strong note encryption with per-note granularity
-    * Relation maps and link maps for visualizing notes and their relations
-    * Scripting - see Advanced showcases
-    * Scales well in both usability and performance upwards of 100 000 notes
-    * Touch optimized mobile frontend for smartphones and tablets
-    * Night theme
-    * Evernote and Markdown import and export
-    * Web Clipper for easy saving of web content
+
+# Features
+* Notes can be arranged into arbitrarily deep tree. Single note can be placed into multiple places in the tree (see cloning)
+* Rich WYSIWYG note editing including e.g. tables and images with markdown autoformat
+* Support for editing notes with source code, including syntax highlighting
+* Fast and easy navigation between notes, full text search and note hoisting
+* Seamless note versioning
+* Note attributes can be used for note organization, querying and advanced scripting
+* Synchronization with self-hosted sync server
+* Strong note encryption with per-note granularity
+* Relation maps and link maps for visualizing notes and their relations
+* Scripting - see Advanced showcases
+* Scales well in both usability and performance upwards of 100 000 notes
+* Touch optimized mobile frontend for smartphones and tablets
+* Night theme
+* Evernote and Markdown import and export
+* Web Clipper for easy saving of web content
+
     </description>
     <releaseNotes>https://github.com/zadam/trilium/releases</releaseNotes>
-    <!-- =============================== -->      
+    <!-- =============================== -->
 
   </metadata>
   <files>

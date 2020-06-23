@@ -4,7 +4,7 @@ $domain   = 'https://github.com'
 $releases = "$domain/zadam/trilium/releases"
 
 function global:au_SearchReplace {
-  @{ 
+  @{
     ".\tools\chocolateyInstall.ps1" = @{
       "(?i)(^\s*url\s*=\s*)('.*')"          = "`$1'$($Latest.URL32)'"
       "(?i)(^\s*checksum\s*=\s*)('.*')"   	= "`$1'$($Latest.Checksum32)'"

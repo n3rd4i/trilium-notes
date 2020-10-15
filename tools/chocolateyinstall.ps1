@@ -6,8 +6,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
-  url           = 'https://github.com/zadam/trilium/releases/download/v0.44.6/trilium-windows-x64-0.44.6.zip'
-  checksum      = '168e679e693110f7ae19da51a19eca462e37aac5c3416f53628544bdee626abc'
+  url           = 'https://github.com/zadam/trilium/releases/download/v0.44.8/trilium-windows-x64-0.44.8.zip'
+  checksum      = '8e62e98fba43c150c179698fe37ff4ee741de3f5fd7a2f260988aa901294ee6c'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs

@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>trilium-notes</id>
-    <version>0.45.3</version>
+    <version>0.45.4</version>
     <packageSourceUrl>https://github.com/n3rd4i/trilium-notes.git</packageSourceUrl>
     <owners>n3rd4i</owners>
     <!-- ============================== -->
